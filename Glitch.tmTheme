@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+Humble Night
+======================================================================
+ A minimalistic dark color theme for Sublime Text theme by NullSignal13.
+
+ Copyright (c) 2025 NullSignal13. https://github.com/NullSignal13
+ Released under the MIT License <http://opensource.org/licenses/MIT>
+-->
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>Glitch</string>
+    <key>settings</key>
+    <array>
+        <dict>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#120721</string>
+                <key>caret</key>
+                <string>#F8F8FF</string>
+                <key>foreground</key>
+                <string>#D4D4CF</string>
+                <key>lineHighlight</key>
+                <string>#210D3D</string>
+                <key>selection</key>
+                <string>#03A696</string>
+                <key>selectionForeground</key>
+                <string>#fff</string>
+                <key>findHighlight</key>
+                <string>#03A696</string>
+                <key>findHighlightForeground</key>
+                <string>#fff</string>
+                <key>selectionBorder</key>
+                <string>#03A696</string>
+                <key>activeGuide</key>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
