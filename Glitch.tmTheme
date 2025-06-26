@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!--
-Humble Night
+Glitch
 ======================================================================
  A minimalistic dark color theme for Sublime Text theme by NullSignal13.
 
@@ -19,12 +19,16 @@ Humble Night
             <dict>
                 <key>background</key>
                 <string>#120721</string>
-                <key>caret</key>
-                <string>#F8F8FF</string>
                 <key>foreground</key>
                 <string>#D4D4CF</string>
+                <key>caret</key>
+                <string>#F8F8FF</string>
+                
+                <key>invisibles</key>
+                <string>#210D3D</string>
                 <key>lineHighlight</key>
                 <string>#210D3D</string>
+
                 <key>selection</key>
                 <string>#03A696</string>
                 <key>selectionForeground</key>
@@ -35,7 +39,35 @@ Humble Night
                 <string>#fff</string>
                 <key>selectionBorder</key>
                 <string>#03A696</string>
+
                 <key>activeGuide</key>
+                <string>#2E2E2D</string>
+
+                <key>bracketsForeground</key>
+                <string>#FFFFF8</string>
+                <key>bracketsOptions</key>
+                <string>underline</string>
+
+                <key>bracketContentsForeground</key>
+                <string>#FFFFF8</string>
+                <key>bracketContentsOptions</key>
+                <string>underline</string>
+
+                <key>tagsForeground</key>
+                <string>#5AC480</string>
+                <key>tagsOptions</key>
+                <string>underline</string>
+            </dict>
+        </dict>
+         <dict>
+            <key>name</key>
+            <string>Comment</string>
+            <key>scope</key>
+            <string>comment</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#7A7A78</string>
             </dict>
         </dict>
     </array>
