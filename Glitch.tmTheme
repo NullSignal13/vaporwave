@@ -70,6 +70,7 @@ Glitch
                 <string>#7A7A78</string>
             </dict>
         </dict>
+
         <dict>
             <key>name</key>
             <string>Class name</string>
@@ -94,6 +95,7 @@ Glitch
                 <string>#D63DD9</string>
             </dict>
         </dict>
+
         <dict>
             <key>name</key>
             <string>Function name</string>
@@ -114,6 +116,128 @@ Glitch
             <dict>
                 <key>foreground</key>
                 <string>#D63DD9</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>String</string>
+            <key>scope</key>
+            <string>string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#03A696</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Number</string>
+            <key>scope</key>
+            <string>constant.numeric</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F0F0EC</string>
+            </dict>
+        </dict>
+
+         <dict>
+            <key>name</key>
+            <string>Built-in constant</string>
+            <key>scope</key>
+            <string>constant.language</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#1190D9</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>User-defined constant</string>
+            <key>scope</key>
+            <string>constant.character, constant.other</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#870FFF</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Keyword</string>
+            <key>scope</key>
+            <string>keyword</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F0F0EC</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Storage</string>
+            <key>scope</key>
+            <string>storage</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#1190D9</string>
+            </dict>
+        </dict>
+
+         <dict>
+            <key>name</key>
+            <string>Storage type</string>
+            <key>scope</key>
+            <string>storage.type</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#CB11CF</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Tag name</string>
+            <key>scope</key>
+            <string>entity.name.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#7A7A78</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Tag attribute</string>
+            <key>scope</key>
+            <string>entity.other.attribute-name</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#7A7A78</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Tag Punctuations</string>
+            <key>scope</key>
+            <string>punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#7A7A78</string>
             </dict>
         </dict>
     </array>
